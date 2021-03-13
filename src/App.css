@@ -4,14 +4,24 @@
   display: grid;
   justify-content: center;
   align-content: center;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
 }
 
 .joke__container {
   width: 400px;
   text-align: center;
-  border: 1px solid purple;
+  border: 5px solid rgb(47, 199, 219);
   padding: 20px 10px;
   border-radius: 0.5rem;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.15);
 }
 
 .joke__title {
@@ -21,10 +31,6 @@
 
 .joke__avatar {
   margin-bottom: 10px;
-  border: 2px solid rgb(120, 120, 241);
-  padding: 0.2rem;
-  border-radius: 0.5rem;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
 }
 
 .joke__text {

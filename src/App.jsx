@@ -30,7 +30,7 @@ const App = () => {
             src={data.icon_url}
             alt="chuck norris"
           />
-          <p className="joke_text">{data.value}</p>
+          <p className="joke__text">{data.value}</p>
           <button className="reload" onClick={getData}>
             <img src={reload} alt="reload icon" width="20" height="20" />
           </button>
